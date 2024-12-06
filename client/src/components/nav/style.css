@@ -1,0 +1,62 @@
+.nav {
+    padding: 1.5em 9.0625em 20px 8.4375em;
+    display: flex;
+    align-items: center;
+    background: #C8D9E6;
+    justify-content: space-between;
+    grid-gap: 100px;
+}
+
+.head__bar {
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    z-index: 1200;
+    grid-gap: 40px;
+}
+
+.header__links {
+    display: flex;
+    grid-gap: 40px;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.header__link {
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.head__buttons {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1100;
+    grid-gap: 20px;
+}
+
+.hd__btn {
+    border: 0.125em solid #2F4156;
+    text-decoration: none;
+    color: black;
+    padding: 0.75em 1.5em;
+    border-radius: 0.5em;
+}
+
+.hd__btn:hover,
+.intro__btn:hover,
+.signup__btn:hover {
+    background: #2F4156;
+    opacity: 1;
+    transition: all 0.33s ease;
+    color: white;
+    box-shadow: 0.1875em 0.1875em rgba(34, 60, 80, 0.25);
+}
+
+a.active {
+    color: #2F4156;
+    text-decoration-line: underline;
+    pointer-events: none;
+    z-index: 1200;
+}

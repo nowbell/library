@@ -1,0 +1,45 @@
+.catalog__section1 {
+    background: #C8D9E6;
+    width: 100%;
+    height: 510px;
+    position: relative;
+}
+
+.ctlg__intro__img1 {
+    position: absolute;
+    padding: 287px 0 0 1480px;
+    z-index: 1050;
+}
+
+.intro__img2 {
+    position: absolute;
+    padding-top: 205px;
+    z-index: 1050;
+}
+
+.intro__title {
+    font-size: 6em;
+    line-height: 120%;
+}
+
+.intro__undertitle {
+    width: 12.5em;
+    margin: 1em auto 1.2em;
+    color: #2F4156;
+    line-height: 160%;
+}
+
+.sect1__intro {
+    position: relative;
+    margin: auto;
+    max-width: 49.45em;
+    width: 100%;
+    text-align: center;
+}
+
+.scrib__ctlg {
+    position: absolute;
+    left: 49%;
+    padding-top: 457px;
+    z-index: 1100;
+}
